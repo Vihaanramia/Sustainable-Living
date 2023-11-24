@@ -1,0 +1,187 @@
+body{
+	background: linear-gradient(yellow,red); 
+}
+.container li{
+	text-decoration: none;
+	list-style-type: none;
+	display: inline;
+	font-size: 25px;
+	font-weight: bold;
+	margin: 5px;
+	background-color: maroon;
+	color: pink;
+	padding-right: 20px;
+}
+.container{
+	clear: both;
+	overflow: auto;
+}
+.container ul li{
+	display: inline;
+	padding: 10px;
+	margin-top: 5px;
+	padding-top: 5px;
+	
+}
+nav{
+	float: right;
+	margin-top: 4px;
+	padding: 10px;
+}
+nav a{
+	text-decoration:none; 
+	color: pink;
+}
+nav ul li a:hover{
+	color: yellow;
+}
+.center{
+	text-align: center;
+	font-size: 30px;
+}
+#Home{
+	text-align: justify;
+	margin: 20px;
+	background-color: skyblue;
+	border-style: dotted;
+	border-radius: 15px;
+	padding: 15px;
+	font-size: 25px;
+
+}
+#Differences{
+	text-align: justify;
+	margin: 20px;
+	background-color: lightgreen;
+	border-style: solid;
+	border-radius: 15px;
+	padding: 15px;
+	font-size: 25px;
+}
+
+#Start{
+	text-align: justify;
+	margin: 20px;
+	background-color: #fffd8d;
+	border-style: double;
+	border-width: 10px;
+	border-radius: 15px;
+	padding: 15px;
+	font-size: 25px;
+
+}
+table{
+	border-collapse: collapse;
+	width: 100%;
+}
+table,td,th{
+	border: 2px solid black;
+
+}
+th{
+	text-align: center;
+	background-color: magenta;
+	color: blue;
+}
+td{
+	text-align: center; 
+	border-spacing: 10px;
+	background-color: pink;
+}
+#impact{
+	text-align: justify;
+	margin: 20px;
+	background-color: #32cd32;
+	border-style: ridge;
+	border-width: 15px;
+	border-radius: 15px;
+	padding: 15px;
+	font-size: 25px;
+}
+
+#people{
+	text-align: justify;
+	margin: 20px;
+	background-color: #de73ff;
+	border-style: dashed;
+	border-width: 5px;
+	border-radius: 15px;
+	padding: 15px;
+	font-size: 25px;
+}
+
+#people li{
+	display: list-item; 
+}
+#people ol li{
+	list-style-type: upper-roman;
+}
+#Goals{
+	text-align: justify;
+	margin: 20px;
+	background-color: #9bedff;
+	border-style: groove;
+	border-width: 5px;
+	border-radius: 15px;
+	padding: 15px;
+	font-size: 40px;
+}
+
+#GoalsDetail{
+	text-align: justify;
+	margin: 20px;
+	background-color: #9bedff;
+	border-style: groove;
+	border-width: 5px;
+	border-radius: 15px;
+	padding: 15px;
+	font-size: 25px;
+}
+#GoalsDetail .row{
+		content:"";
+		clear:both;
+		display:table-cell;
+		margin: 10px;
+}
+#GoalsDetail .column{
+
+	float:left;
+	width:30%;
+	margin:5px;
+	padding: 10px;
+	height:500px;
+	background-color: lightyellow; 
+	border-radius: 20px; 
+	border-style:solid;
+	width:500px;
+
+}
+img{
+	width: 300px;
+	height: 200px;
+}
+#Goalpic1{
+	width: 1000px;
+	height: 400px;
+}
+.column2{
+	width: 60%;
+	margin: 5px;
+	padding: 10px;
+	height: 450px;
+	background-color: lightgreen;
+	border-radius: 20px;
+	border-style:solid;
+	border-inline-width: 4px;
+	align-content: center;
+	text-align: center;
+	margin-right: 110px;
+	margin-left: 110px;
+	padding-top: 20px;
+}
+.row2 p{
+	font-size: 18px;
+}
+.row2 h3{
+	font-size: 32px;
+}
